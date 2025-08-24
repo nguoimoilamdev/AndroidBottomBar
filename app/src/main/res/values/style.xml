@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bottom Bar -->
+    <style name="BottomBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/BottomBarBackGround</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="BottomBarView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/BottomBarViewBackGround</item>
+    </style>
+
+    <style name="BottomBarContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="BottomBarItem">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/bottom_bar_click_bg</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BottomBarImage">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="tint">@color/ButtonBarNormal</item>
+    </style>
+
+    <style name="BottomBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/ButtonBarNormal</item>
+    </style>
+
+    <style name="ivFragment">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:src">@drawable/ic_launcher</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="tvFragment">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+</resources>

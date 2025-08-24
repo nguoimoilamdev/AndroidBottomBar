@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_pages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout style="@style/BottomBar">
+
+        <View style="@style/BottomBarView"/>
+
+        <LinearLayout style="@style/BottomBarContainer">
+
+            <LinearLayout
+                android:id="@+id/bottom_bar_btn_home"
+                style="@style/BottomBarItem"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <ImageView
+                    android:id="@+id/bottom_bar_image_home"
+                    style="@style/BottomBarImage"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/ic_home" />
+
+                <TextView
+                    android:id="@+id/bottom_bar_text_home"
+                    style="@style/BottomBarText"
+                    android:text="@string/home" />
+            </LinearLayout>
+
+            <!-- Friend -->
+            <LinearLayout
+                android:id="@+id/bottom_bar_btn_friend"
+                style="@style/BottomBarItem"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <ImageView
+                    android:id="@+id/bottom_bar_image_friend"
+                    style="@style/BottomBarImage"
+                    android:contentDescription="@string/friend"
+                    android:src="@drawable/ic_friend" />
+
+                <TextView
+                    android:id="@+id/bottom_bar_text_friend"
+                    style="@style/BottomBarText"
+                    android:text="@string/friend" />
+            </LinearLayout>
+
+            <!-- Bookmark -->
+            <LinearLayout
+                android:id="@+id/bottom_bar_btn_bookmark"
+                style="@style/BottomBarItem"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <ImageView
+                    android:id="@+id/bottom_bar_image_bookmark"
+                    style="@style/BottomBarImage"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/ic_bookmark" />
+
+                <TextView
+                    android:id="@+id/bottom_bar_text_bookmark"
+                    style="@style/BottomBarText"
+                    android:text="@string/bookmark" />
+            </LinearLayout>
+
+            <!-- Profile -->
+            <LinearLayout
+                android:id="@+id/bottom_bar_btn_profile"
+                style="@style/BottomBarItem"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <ImageView
+                    android:id="@+id/bottom_bar_image_profile"
+                    style="@style/BottomBarImage"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/ic_profile" />
+
+                <TextView
+                    android:id="@+id/bottom_bar_text_profile"
+                    style="@style/BottomBarText"
+                    android:text="@string/profile" />
+            </LinearLayout>
+
+            <!-- Menu -->
+            <LinearLayout
+                android:id="@+id/bottom_bar_btn_menu"
+                style="@style/BottomBarItem"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <ImageView
+                    android:id="@+id/bottom_bar_image_menu"
+                    style="@style/BottomBarImage"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/ic_menu" />
+
+                <TextView
+                    android:id="@+id/bottom_bar_text_menu"
+                    style="@style/BottomBarText"
+                    android:text="@string/menu" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
